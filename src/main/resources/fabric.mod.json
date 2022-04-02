@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "flyingboats",
+  "version": "${version}",
+  "name": "Flyingboats",
+  "description": "Flying Boats for Fabric",
+  "authors": [
+    "6Times"
+  ],
+  "contact": {
+    "website": "iknowwhatimdoing.ml"
+  },
+  "license": "MIT",
+  "icon": "assets/flyingboats/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ml.ikwid.flyingboats.client.FlyingboatsClient"
+    ],
+    "main": [
+      "ml.ikwid.flyingboats.common.Flyingboats"
+    ]
+  },
+  "mixins": [
+    "flyingboats.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

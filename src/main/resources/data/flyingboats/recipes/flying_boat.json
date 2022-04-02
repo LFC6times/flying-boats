@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:boats"
+    },
+    "B": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "flyingboats:flying_boat",
+    "count": 1
+  }
+}
